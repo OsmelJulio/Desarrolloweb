@@ -1,4 +1,4 @@
-document.addEventListener('changeTextbutton',function(){
+document.addEventListener('DOMContentLoaded',function(){
    const button = document.getElementById ('changeTextbutton');
    button.addEventListener('click', function(){
    const introSection=document.getElementById('intro');
